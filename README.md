@@ -2,7 +2,7 @@
 
 ## 👥 Team: Ohm Shanti Ohm
 **Competition:** Analogverse Competition  
-**Date:** March 12, 2026  
+
 
 ---
 
