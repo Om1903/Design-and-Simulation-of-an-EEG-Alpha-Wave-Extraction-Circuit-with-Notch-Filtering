@@ -1,6 +1,6 @@
 # Design and Simulation of an EEG Alpha Wave Extraction Circuit with Notch Filtering
 
-## 👥 Team: Ohm Shanti Ohm
+##  Team: Ohm Shanti Ohm
 **Competition:** Analogverse Competition  
 
 
