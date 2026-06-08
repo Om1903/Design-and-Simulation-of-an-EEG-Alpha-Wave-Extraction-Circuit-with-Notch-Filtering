@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Electroencephalography (EEG) records non-invasive microvolt-level electrical potential fluctuations ($10–100\ \mu\text{V}$) originating from postsynaptic dendritic currents in the cerebral cortex. Within the standard neural spectral bands, **Alpha waves (8–12 Hz)** serve as prominent biomarkers tightly coupled with states of conscious relaxation, attentional modulation, and cognitive workload distribution. 
 
 Capturing these fragile biomarkers directly from the scalp presents an extreme signal integrity challenge. The physiological microvolts are routinely buried under layers of severe, destructive interference:
@@ -18,7 +18,7 @@ To overcome these constraints, this project details the design, optimization, an
 
 ---
 
-## 🛠 System Architecture
+##  System Architecture
 The processing pipeline implements a strictly structured modular chain to extract the brainwaves linearly without saturating individual gain blocks.
 
 <img width="861" height="488" alt="image" src="https://github.com/user-attachments/assets/9f826a78-42c0-4f56-85a2-69cb2e202086" />
@@ -26,7 +26,7 @@ The processing pipeline implements a strictly structured modular chain to extrac
 
 ---
 
-## 🔬 Hardware Stage Specifications
+##  Hardware Stage Specifications
 
 ### 1. Instrumentation Amplifier (In-Amp) Stage
 * **Function:** Extracts microvolt differential inputs from raw electrodes, isolates weak biological signals, and offers huge input impedance to prevent signal degradation.
