@@ -83,7 +83,7 @@ Because typical biomedical signals oscillate symmetrically around a 0V AC baseli
 
 ---
 
-## 📈 Circuit Simulation & Node-by-Node Tracking
+##  Circuit Simulation & Node-by-Node Tracking
 The continuous voltage progression through each processing junction (simulating a worst-case scenario input containing **$50\ \mu\text{V}$ Alpha Wave + 200mV DC Offset + 500mV Power Line Hum**) highlights the signal conditioning timeline:
 
 | Node | Circuit Stage | Section Gain | Signal Voltage ($V_{pp}$) | Processing / Artifact Status |
@@ -128,6 +128,6 @@ A final comprehensive test combined all physiological, environmental, and DC noi
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 1. **PCB Optimization:** Design an optimized, ultra-compact hardware layout using split analog/digital ground planes and shielding enclosures to further guard against localized EMI.
 2. **Embedded DSP Integration:** Interface the buffered unipolar analog output with an ESP32 or STM32 MCU to execute real-time discrete Fast Fourier Transforms (FFT) and algorithmic band power mapping.
