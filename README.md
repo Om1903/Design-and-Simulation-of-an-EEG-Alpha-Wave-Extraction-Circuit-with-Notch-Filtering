@@ -101,7 +101,7 @@ The continuous voltage progression through each processing junction (simulating 
 
 ---
 
-## 🔬 Test Results & Validation Matrices
+##  Test Results & Validation Matrices
 
 ### Phase 1: Ideal Performance Validation
 Simulations validated the filter chain under ideal frequency environments.
